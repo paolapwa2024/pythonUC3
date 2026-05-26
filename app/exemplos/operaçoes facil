@@ -1,0 +1,27 @@
+num1 = int(input("digite um numero"))
+num2 = int(input("digite o segundo numero"))
+calculo = float(num1)+float(num2)
+
+print(num1+num2)
+print(calculo)
+
+R1 = num1 + num2
+print(f"divisao= {R1}")
+
+R2 = num1 + num2
+print(f"soma= {R2}")
+
+R3 = num1 * num2
+print(f"multiplicacao= {R3}")
+
+R4 = num1 / num2
+print(f"divisao= {R4}")
+
+R5 = num1 // num2
+print(f"vivisao inteiro= {R5}")
+
+R6 = num1 % num2
+print(f"resto= {R6}")
+
+R7 = num1 ** num2
+print(f"potencia= {R7}")

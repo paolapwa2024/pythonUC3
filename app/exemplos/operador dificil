@@ -1,0 +1,57 @@
+def ADICAO(x, y):
+    w = x + y
+    return w
+
+def SUBTRACAO(x, y):
+    return x - y
+
+def MULTIPLICACAO(x, y):
+    return x * y
+
+def DIVISAO(x, y):
+    return x / y
+
+def DIVISAO_INTEIRA(x, y):
+    return x // y
+
+def RESTO_DIVISAO(x, y):
+    return x % y
+
+def POTENCIA(x, y):
+    return x ** y
+
+
+print("Digite dois valores inteiros...")
+n1 = int(input("x: "))
+n2 = int(input("y: "))
+op = input("Qual operacao (+ , - , * , / , // , % ou **): ")
+
+if op == "+":
+    z = ADICAO(n1, n2)
+    print("Resultado da soma:", z)
+elif op == "-":
+    z = SUBTRACAO(n1, n2)
+    print("Resultado da subtracao:", z)
+elif op == "*":
+    z = MULTIPLICACAO(n1, n2)
+    print("Resultado da multiplicacao:", z)
+elif op == "/":
+    if n2 == 0:
+        print("Erro: divisao por zero!")
+    else:
+        z = DIVISAO(n1, n2)
+        print("Resultado da divisao:", z)
+elif op == "//":
+    if n2 == 0:
+        print("Erro: divisao por zero!")
+    else:
+        z = DIVISAO_INTEIRA(n1, n2)
+        print("Resultado da divisao inteira:", z)
+elif op == "%":
+    z = RESTO_DIVISAO(n1, n2)
+    print("Resultado do resto da divisao:", z)
+elif op == "**":
+    z = POTENCIA(n1, n2)
+    print("Resultado da potencia:", z)
+else:
+    print("Operacao invalida!")
