@@ -1,15 +1,15 @@
-#Verificação de idade mínima
+# === PAR OU ÍMPAR COM FUNÇÃO ===
 
-idade = int(input("informe sua idade: "))
-novidade = int(idade)
-try:
-    if idade >=18 :
-        print ("acesso liberado ao sistema")
+
+
+def verificar_par(num):
+    if num % 2 == 0:
+        print(num, "é PAR.")
     else:
-        print("Usuario não tem idade para acesso")
-        10
-except ValueError:
-    print("Erro ou informação invalida")
+        print(num, "é ÍMPAR.")
 
 
 
+numero = int(input("Digite um número: "))
+
+verificar_par(numero)

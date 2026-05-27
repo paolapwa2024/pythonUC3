@@ -5,7 +5,7 @@ if idade>=18:
     print(" maior de idade")
 
 
-# Confirma ou validar senha
+
 if senha == 131400:
     print(" Acesso Liberado ")
 

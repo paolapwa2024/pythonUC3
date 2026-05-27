@@ -1,21 +1,20 @@
-#FUN
+# CALCULADORA SIMPLE
 
-def ADICAO (x, y):
-    w = x + y
-    return w
-def SUBTRACAO(x, y):
+def somar(x, y):
+    return x + y
+
+def subtrair(x, y):
     return x - y
 
-print("Digite dois valores inetiros...")
-n1 = int(input("x: "))
-n2 = int(input("y: "))
-op = input("Qual operacao (+ ou -)?")
+
+print("Digite dois números inteiros...")
+n1 = int(input("Primeiro número: "))
+n2 = int(input("Segundo número: "))
+op = input("Qual operação (+ ou -): ")
 
 if op == "+":
-    z = ADICAO (n1, n2)
-    print("Resultado da soma:", z)
+    print("Resultado:", somar(n1, n2))
 elif op == "-":
-    z = SUBTRACAO (n1, n2)
-    print("Resultado da subtracao:", z)
+    print("Resultado:", subtrair(n1, n2))
 else:
-    print("Saiu!")
+    print("Operação inválida!")
