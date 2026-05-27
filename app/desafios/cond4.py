@@ -1,10 +1,10 @@
-# Pede o usuário
+#Sistema de acesso
 usuario = input("Digite o usuário: ")
 
-# Pede a senha
+
 senha = input("Digite a senha: ")
 
-# Verifica usuário e senha
+
 if usuario == "admin" and senha == "1234":
     print("Bem-vindo!")
 else:

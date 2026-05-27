@@ -3,7 +3,7 @@ idade = 39 #int
 altura = 1.73 #float
 aluno = False #bool True/False
 
-# saida( teste terminal)
+
 
 print("Nome" + nome)
 print("Idade")

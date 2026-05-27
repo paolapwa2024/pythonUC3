@@ -1,7 +1,8 @@
-# Criação da classe
+#Crie uma classe Pessoa
+
 class Pessoa:
 
-# Método construtor
+
     def __init__(self, nome, idade):
 
         self.nome = nome
