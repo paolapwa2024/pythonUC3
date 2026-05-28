@@ -16,20 +16,16 @@ while True:
  
     print() 
  
-    
     if all(letra in acertadas for letra in palavra):
         print("Parabens! A palavra era:", palavra)
         break
- 
     
     if erros == 6:
         print("Voce perdeu! A palavra era:", palavra)
         break
- 
     
     chute = input("Digite uma letra: ").lower()
  
-    
     if chute in palavra:
         acertadas.append(chute)
         print("Acertou!\n")
