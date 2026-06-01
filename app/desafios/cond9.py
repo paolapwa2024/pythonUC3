@@ -1,4 +1,4 @@
-# === VERIFICADOR DE DIA DA SEMANA ===
+# VERIFICADOR DE DIA DA SEMANA 
 
 dia = input("Digite o dia da semana: ").strip().lower()
 
