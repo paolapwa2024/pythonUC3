@@ -14,3 +14,7 @@ class Aluno:
 aluno1 = Aluno("Paola")
 
 aluno1.estudar()
+
+
+
+

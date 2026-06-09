@@ -7,3 +7,9 @@ class Pessoa:
 
         self.nome = nome
         self.idade = idade
+
+        print(self.nome)
+        print(self.idade)
+
+
+p = Pessoa("Paola", 35)

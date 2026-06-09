@@ -18,7 +18,6 @@ class Contador:
 contador = Contador()
 
 contador.aumentar()
-contador.aumentar()
 
 contador.diminuir()
 

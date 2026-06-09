@@ -5,6 +5,9 @@ class Produto:
         self.nome  = nome
         self.preco = preco
 
+    def __str__(self):
+        return f"Produto: {self.nome}\nPreço: R$ {self.preco:.2f}"
+
     def aplicar_desconto(self, desconto):
         self.preco = self.preco - (self.preco * desconto / 100)
         print(f"Desconto de {desconto}% aplicado!")
@@ -13,5 +16,7 @@ class Produto:
 
 produto1 = Produto("Tênis", 200)
 
+print (produto1)
+produto1.aplicar_desconto(75)
 
-produto1.aplicar_desconto(10)
+

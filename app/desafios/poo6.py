@@ -15,8 +15,8 @@ class Carro(Veiculo):
 
 
 class Moto(Veiculo):
-    def fazer_wheeling(self):
-        print(f"{self.marca} fez um wheeling!")
+    def transmissao_automatica(self):
+        print(f"{self.marca} Transmissão automática!")
 
 
 carro = Carro("Toyota", 120)
@@ -26,4 +26,4 @@ carro.mover()
 carro.ligar_ar()
 
 moto.mover()
-moto.fazer_wheeling()
+moto.transmissao_automatica()

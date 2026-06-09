@@ -2,8 +2,8 @@
 
 class Livro:
     def __init__(self, titulo):
-        self.titulo      = titulo
-        self.disponivel  = True
+        self.titulo     = titulo
+        self.disponivel = True
 
     def emprestar(self):
         if self.disponivel:
@@ -17,10 +17,7 @@ class Livro:
         print(f"'{self.titulo}' foi devolvido!")
 
 
-
 livro1 = Livro("O Pequeno Príncipe")
-
-
 livro1.emprestar()
 livro1.emprestar()
 livro1.devolver()

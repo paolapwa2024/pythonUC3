@@ -1,15 +1,15 @@
 #CLASSE COM CONTADOR DE OBJETOS
 
-class Pessoa:
+class Objetos:
     total = 0  
 
     def __init__(self, nome):
         self.nome = nome
-        Pessoa.total = Pessoa.total + 1
-        print(f"'{self.nome}' criado! Total de pessoas: {Pessoa.total}")
+        Objetos.total = Objetos.total + 1
+        print(f"'{self.nome}' criada!  Total de objetos:  {Objetos.total}")
 
-p1 = Pessoa("João")
-p2 = Pessoa("Maria")
-p3 = Pessoa("Pedro")
+o1 = Objetos("Bola")
+o2 = Objetos("Arvore")
+o3 = Objetos("Boneca")
 
-print(f"\nTotal de objetos criados: {Pessoa.total}")
+print(f"\nTotal de objetos criados: {Objetos.total}")

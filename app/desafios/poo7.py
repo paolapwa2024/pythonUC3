@@ -26,9 +26,9 @@ class Agenda:
 
 agenda = Agenda()
 
-agenda.adicionar("João")
-agenda.adicionar("Maria")
-agenda.adicionar("Pedro")
+agenda.adicionar("Willian")
+agenda.adicionar("Paola")
+agenda.adicionar("Alice")
 agenda.listar()
-agenda.remover("Maria")
+agenda.remover("Paola")
 agenda.listar()
