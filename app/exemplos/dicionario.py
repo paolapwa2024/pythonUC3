@@ -12,3 +12,6 @@ print(pesssoa["nome"])
 
 for chave, valor in pesssoa.items():
     print(f"Seu {chave} é {valor}")
+
+pesssoa.update({"nome":"Jair" ,"cpf":"014.594.524-15","telefone":2189546958})
+print (pesssoa)
