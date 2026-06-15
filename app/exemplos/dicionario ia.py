@@ -21,7 +21,7 @@ print(funcionario)
 # exercicio 5
 
 for chave, valor in funcionario.items():
-    print(chave, "→", valor)
+    print(chave, "-", valor)
 
 # exercicio 6
 
@@ -30,9 +30,6 @@ funcionarios = [
     {"nome": "José",  "cargo": "suporte"},
     {"nome": "Maria", "cargo": "analista"}
 ]
-
-for i, f in enumerate(funcionarios, start=1):
-    print(f"id: {i:02d}  - nome: {f['nome']}  - cargo: {f['cargo']}")
 
 # é a mesma coisa que isso na forma manual:
 contador = 1
