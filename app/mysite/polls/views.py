@@ -1,4 +1,11 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    mensagem = ""
+    if request.method == "POST":
+        idade = int(request.POST.get("idade", 0))
+        if idade >= 18:
+            mensagem = f"Acesso liberado! Você tem {idade} anos."
+        else:
+            mensagem = f"Acesso negado. Você tem {idade} anos."
+    return render(request, "polls/index.html", {"mensagem": mensagem})
