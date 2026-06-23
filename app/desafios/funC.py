@@ -1,4 +1,4 @@
-# === VERIFICADOR DE FAIXA ETÁRIA ===
+# VERIFICADOR DE FAIXA ETÁRIA
 
 def verificar_idade(idade):
     if idade < 12:

@@ -11,7 +11,8 @@ def contar_pares(inicio, fim):
 
     print("Pares entre", inicio, "e", fim, ":", total)
 
+
 inicio = int(input("Digite o número inicial: "))
-fim    = int(input("Digite o número final: "))
+fim = int(input("Digite o número final: "))
 
 contar_pares(inicio, fim)

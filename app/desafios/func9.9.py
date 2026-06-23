@@ -6,7 +6,6 @@ def tabuada(n):
         print(n, "x", i, "=", n * i)
 
 
-
 numero = int(input("Digite um número: "))
 
 tabuada(numero)

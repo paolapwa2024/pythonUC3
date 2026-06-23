@@ -1,5 +1,4 @@
-# === PAR OU ÍMPAR COM FUNÇÃO ===
-
+# PAR OU ÍMPAR COM FUNÇÃO 
 
 
 def verificar_par(num):
@@ -7,7 +6,6 @@ def verificar_par(num):
         print(num, "é PAR.")
     else:
         print(num, "é ÍMPAR.")
-
 
 
 numero = int(input("Digite um número: "))

@@ -1,4 +1,4 @@
-# === SOMA ATÉ DIGITAR 0 ===
+# SOMA ATÉ DIGITAR 0
 
 def somar_valores():
     total = 0
@@ -13,5 +13,6 @@ def somar_valores():
         print(f"Somando... total até agora: {total}")
 
     print(f"\nVocê parou! Total final: {total}")
+
 
 somar_valores()

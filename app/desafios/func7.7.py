@@ -4,10 +4,11 @@ def validar_senha():
     while True:
         senha = input("Digite a senha: ")
 
-        if senha == "paola1"3:
+        if senha == "paola1":
             print("Senha correta! Acesso liberado.")
             break
         else:
             print("Senha errada! Tente novamente.\n")
+
 
 validar_senha()

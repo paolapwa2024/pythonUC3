@@ -1,4 +1,4 @@
-# === ÍMPARES PULANDO MÚLTIPLOS DE 7 ===
+#ÍMPARES PULANDO MÚLTIPLOS DE 7 
 
 def impares_sem_multiplos_de_7(inicio, fim):
     for numero in range(inicio, fim + 1):
@@ -10,8 +10,9 @@ def impares_sem_multiplos_de_7(inicio, fim):
             continue  
         print(numero)
 
+       
 
 inicio = int(input("Digite o número inicial: "))
-fim    = int(input("Digite o número final: "))
+fim = int(input("Digite o número final: "))
 
 impares_sem_multiplos_de_7(inicio, fim)

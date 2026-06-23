@@ -1,4 +1,4 @@
-# === SISTEMA DE LOGIN ===
+#SISTEMA DE LOGIN
 
 def login():
     tentativas = 0
